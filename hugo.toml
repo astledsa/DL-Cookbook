@@ -1,0 +1,16 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+   name = "Multi-layer Perceptron"
+   url = "/mlp/"
+   weight = 1

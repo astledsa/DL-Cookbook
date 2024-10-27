@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <!-- ... (keep your existing head content) ... -->
+    {{ $style := resources.Get "css/main.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            {{ partial "sidebar.html" . }}
+        </nav>
+        <main class="content">
+            {{ block "main" . }}{{ end }}
+        </main>
+        <aside class="references">
+            {{ partial "references.html" . }}
+        </aside>
+    </div>
+    {{ $js := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $js.Permalink }}"></script>
+</body>
+</html>

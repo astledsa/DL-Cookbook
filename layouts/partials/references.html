@@ -1,0 +1,10 @@
+<h2>References</h2>
+{{ with .Params.references }}
+<ul>
+    {{ range . }}
+    <li><a href="{{ .url }}">{{ .title }}</a></li>
+    {{ end }}
+</ul>
+{{ else }}
+<p>No references for this post.</p>
+{{ end }}

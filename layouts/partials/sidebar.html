@@ -1,0 +1,32 @@
+<nav class="sidebar-nav">
+    {{ $currentPage := . }}
+    <ul class="nav-list">
+    {{ range .Site.Menus.main }}
+        <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }} {{ if eq .Name "Home" }}home-button{{ end }}">
+            {{ if .HasChildren }}
+                <a href="#" class="dropdown-toggle">{{ .Name }} <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                {{ range .Children }}
+                    <li class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
+                        {{ if .HasChildren }}
+                            <a href="#" class="dropdown-toggle">{{ .Name }} <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                            {{ range .Children }}
+                                <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                                    <a href="{{ .URL }}">{{ .Name }}</a>
+                                </li>
+                            {{ end }}
+                            </ul>
+                        {{ else }}
+                            <a href="{{ .URL }}">{{ .Name }}</a>
+                        {{ end }}
+                    </li>
+                {{ end }}
+                </ul>
+            {{ else }}
+                <a href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+        </li>
+    {{ end }}
+    </ul>
+</nav>
