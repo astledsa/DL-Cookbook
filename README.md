@@ -1,0 +1,65 @@
+**Topics**
+- Deep Learning
+    - [x] MLP
+    - [ ] CNN
+    - [ ] RNN
+    - [ ] GRU
+    - [ ] Mamba
+    - [ ] KANs
+    - [ ] VAE
+    - [ ] SAE
+    - [ ] Jacobian Fields
+    - [ ] Spiking NNs
+    - [ ] Hyperbolic NNs
+    - [ ] Free-Equivariance NNs
+    - [ ] Causal Models
+    - [ ] Gradient Origin Net
+    - [ ] LSTM
+        - [ ] mLSTM
+        - [ ] xLSTM
+    - Transformers
+         - [ ] Linear
+         - [ ] Sparse
+         - [ ] Gaussian
+         - [ ] Differential
+    - Diffusion
+         - [ ] U-net
+         - [ ] U-ViT
+         - [ ] DiT-based
+         - [ ] SSM-based
+    - PINNs
+        - [ ] Neural ODE
+        - [ ] Fourier Neural Operator
+        - [ ] Deep Operator Networks
+        - [ ] Hamiltonian neural networks
+        - [ ] Langragian neural networks
+- Reinforcement learning
+     - [ ] Asynchronous Advantage Actor-Critic
+     - [ ] Proximal Policy Optimization
+     - [ ] Trust Region Policy Optimization
+     - [ ] Deep Deterministic Policy Gradient
+     - [ ] Twin Delayed DDPG
+     - [ ] Soft Actor-Critic
+     - [ ] Deep Q-Networks
+     - [ ] Categorical 51-Atom DQN
+     - [ ] Quantile Regression DQN
+     - [ ] Hindsight Experience Replay
+     - [ ] World Models
+     - [ ] Imagination-Augmented Agents
+     - [ ] Model-Based RL with Model-Free Fine-Tuning
+     - [ ] Model-Based Value Expansion
+     - [ ] AlphaZero
+- Optimizers
+    - [ ] SGD
+    - [ ] RMSProp
+    - [ ] AdaGrad
+    - [ ] Adam
+    - [ ] AdamW
+    - [ ] Shampoo
+    - [ ] SOAP
+    - [ ] Prodigy
+- Distributed Training
+    - [ ] MegatronLM
+    - [ ] GPipe
+    - [ ] Alpa
+    - [ ] Tenplex

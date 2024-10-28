@@ -27,6 +27,25 @@ body {
     padding: 20px;
 }
 
+.references a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    outline: none;
+    font-style: italic;
+}
+
+.references ul {
+    list-style: decimal;
+}
+
+.references li {
+    margin: 10% 0;
+}
+
+.references a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -106,3 +125,6 @@ img {
     width: 50%;
 }
 
+a {
+    color: black
+}

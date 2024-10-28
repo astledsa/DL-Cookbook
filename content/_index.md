@@ -7,6 +7,8 @@ references:
     url: "https://d2l.ai"
   - title: "Deep Learning Theory"
     url: "https://"
+  - title: "History of Deep Learning"
+    url: "https://people.idsia.ch/~juergen/deep-learning-history.html"
   - title: "This book"
     url: "/"
 ---
@@ -28,4 +30,4 @@ My main aim is to have a short yet appropriate introduction to the vast number o
 
 - <strong>Code</strong> of the concept. As the field of machine learning is as much CS as it is math, the programming aspect of it is just as important, hence I would also provide the associated code (in Jax) which'll not only make the concept itself more clearer, but also give a glance at real life implementation of the above given mathematical equations and techniques. 
 
-Newer architectures and techniques keep coming all the time, and hence this book will keep growing (advantages of a web book)! At the time of writing this book, there are still a lot of conecpts I've glossed over, and would be working towards incorporating them as well, alongside any other that come up in the future.
+Newer architectures and techniques keep coming all the time, and hence this book will keep growing (advantages of a web book)! At the time of writing this book, there are still a lot of conecpts I've glossed over, and would be working towards incorporating them as well, alongside any other that come up in the future. 
