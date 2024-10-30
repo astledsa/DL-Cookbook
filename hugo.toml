@@ -26,4 +26,12 @@ title = 'My New Hugo Site'
    name = "Multi-layer Perceptron"
    url = "/mlp/"
    weight = 1
+  [[menu.main]]
+   name = "Convolutional Neural Networks"
+   url = "/cnn/"
+   weight = 2
+  [[menu.main]]
+   name = "Recurrent Neural Networks"
+   url = "/rnn/"
+   weight = 2
 

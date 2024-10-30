@@ -1,7 +1,7 @@
 **Topics**
 - Deep Learning
     - [x] MLP
-    - [ ] CNN
+    - [x] CNN
     - [ ] RNN
     - [ ] GRU
     - [ ] Mamba
