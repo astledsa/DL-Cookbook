@@ -19,7 +19,7 @@ The central building block of any deep learning architecture. One of the main fe
 
 <table style="border-collapse: collapse;">
   <tr>
-    <td style="padding-right: 20px; vertical-align: middle;"><strong>x</strong></td>
+    <td style="padding-right: 20px; vertical-align: middle;"><strong>X</strong></td>
     <td style="vertical-align: middle;">: Input matrix</td>
   </tr>
   <tr>

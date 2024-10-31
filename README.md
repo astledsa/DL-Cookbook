@@ -2,21 +2,22 @@
 - Deep Learning
     - [x] MLP
     - [x] CNN
-    - [ ] RNN
-    - [ ] GRU
+    - [x] RNN
+         - [ ] Bidirectional
+         - [ ] GRU
+         - [ ] LSTM
+         - [ ] mLSTM
+         - [ ] xLSTM
     - [ ] Mamba
-    - [ ] KANs
-    - [ ] VAE
-    - [ ] SAE
+    - [ ] Kolgomorov-Arnold Networks
+    - [ ] Variational AutoEncoders
+    - [ ] Sparse Auto-Encoders
     - [ ] Jacobian Fields
     - [ ] Spiking NNs
     - [ ] Hyperbolic NNs
     - [ ] Free-Equivariance NNs
-    - [ ] Causal Models
-    - [ ] Gradient Origin Net
-    - [ ] LSTM
-        - [ ] mLSTM
-        - [ ] xLSTM
+    - [ ] Neural Causal Models
+    - [ ] General Adverserial Networks
     - Transformers
          - [ ] Linear
          - [ ] Sparse
