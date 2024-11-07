@@ -2,8 +2,9 @@
 - Deep Learning
     - [x] MLP
     - [x] CNN
-    - [x] RNN
-         - [ ] Bidirectional
+    - RNN
+         - [x] Vanilla
+         - [x] Bidirectional
          - [ ] GRU
          - [ ] LSTM
          - [ ] mLSTM
@@ -18,6 +19,7 @@
     - [ ] Free-Equivariance NNs
     - [ ] Neural Causal Models
     - [ ] General Adverserial Networks
+    - [ ] Graph Neural Networks
     - Transformers
          - [ ] Linear
          - [ ] Sparse
@@ -59,6 +61,7 @@
     - [ ] Shampoo
     - [ ] SOAP
     - [ ] Prodigy
+    - [ ] Reimann SGD
 - Distributed Training
     - [ ] MegatronLM
     - [ ] GPipe

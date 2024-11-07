@@ -13,6 +13,8 @@ references:
 
 If not for the invention and eventual adoption of convolutional networks, deep learning as a field would never have taken off. Primarily used for image related tasks (everything from generation to segmentation), these models are still used in various tasks due to their favourable inductive bias towards images and an easily parallelisable architecture. 
 
+<br>
+
 ## Equation
 
 ![MLP Diagram](/images/cnn.png)
@@ -49,6 +51,8 @@ If not for the invention and eventual adoption of convolutional networks, deep l
 - While the local patterns were being successfully captured by the filter, the global ones needed a different operation altogether. An object may appear multiple times in a single image, hence there's an invariance property that must be adhered to, namely **translation invariance**, which is what a pooling window accomplishes. It is a deterministic operation that "blurs" the images so that the model gets a bird's eye view of the entire image and thus can capture global patterns within the image. 
 
 - The deep stacked architecture when coupled with layers of different sizes also led to a **hierarchical represenation** of an image, allowing the network to capture extremely complex features within an image, with alternating convolutional and pooling operations. This can be acheived by upsampling and downsampling of inputs in order for the model to learn different aspects of the image.
+
+<br>
 
 ## Jax Code
 

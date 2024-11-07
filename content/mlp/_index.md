@@ -13,6 +13,8 @@ references:
 
 The central building block of any deep learning architecture. One of the main feature of MLPs, that essentially separeted it from classical Machine Learning was the use of hidden layers, which worked well with the gradient based optimization called backpropagation. 
 
+<br>
+
 ## Equation
 
 ![MLP Diagram](/images/mlp.png)
@@ -55,6 +57,8 @@ The central building block of any deep learning architecture. One of the main fe
 - One of the main features of this particular structure, alongside backpropagation that allowed for its widespread use was the activation function, which allowed it to discriminate continuous function spaces into different subsets through a non-linear decision boundary, and have its own "internal representation" of the data (through the hidden layer). This particular feature contributed significantly to its distinction from classical ML algorithms, gradient-based learning and otherwise, that led to its theoretical power, as shown by the universal approximation theorems [3] demonstrated by Cybenko, Hornik, and others.
 
 - While many resources would claim that the original inspiration was our brain, it is only partially correct. The mathematical background came from the method of least squares, aka linear regression, which shares some mathematical principles with single-layer perceptrons, and an analogy was then made to the brain and its neurons. Modern deep learning practitioners rarely make that connection in recent literature, as it can be misleading and often unnecessary. Rather than a biological framework, a computational one would be more beneficial for research and understanding (as is implicitly suggested in the [the bitter lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) by Rich Sutton).
+
+<br>
 
 ## Jax Code
 

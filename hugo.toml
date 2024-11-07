@@ -34,4 +34,14 @@ title = 'My New Hugo Site'
    name = "Recurrent Neural Networks"
    url = "/rnn/"
    weight = 2
+  [[menu.main]]
+   name = "Vanilla"
+   url = "/rnn/vanilla"
+   parent = "Recurrent Neural Networks"
+   weight = 1
+  [[menu.main]]
+   name = "Bidirectional"
+   url = "/rnn/brnns"
+   parent = "Recurrent Neural Networks"
+   weight = 2
 

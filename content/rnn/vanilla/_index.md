@@ -60,6 +60,8 @@ The bedrock of compressed contextual understanding and one of the only methods f
 
 - Both of the above properties are taken care of by the passage of **hidden states**, which captures past information and relevant context (making sure the next state is dependant on the previous ones). The nature of the flow of the gradients, which is sequentially backwards, also known as **backpropagation through time or BPTT**, allows for the learned information to flow to the earlier hidden states, and hence ensures the depedancy or the markovian assumption, where this learned information can help the model make better informed decisions to predict the next states.
 
+<br>
+
 ## Jax Code
 
 ```python
