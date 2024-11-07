@@ -6,7 +6,7 @@
          - [x] Vanilla
          - [x] Bidirectional
          - [ ] GRU
-         - [ ] LSTM
+         - [x] LSTM
          - [ ] mLSTM
          - [ ] xLSTM
     - [ ] Mamba

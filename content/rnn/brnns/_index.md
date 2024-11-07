@@ -3,7 +3,7 @@ title: "Bidirectional Recurrent Neural Network"
 date: 2023-04-20
 draft: false
 references:
-    - title: "Bidirectional Recurrent Neural Networks"
+    - title: "Bidirectional Recurrent Neural Networks [PDF]"
       url: "https://deeplearning.cs.cmu.edu/F20/document/readings/Bidirectional%20Recurrent%20Neural%20Networks.pdf"
 ---
 

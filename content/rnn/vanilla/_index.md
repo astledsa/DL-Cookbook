@@ -3,6 +3,8 @@ title: "Recurrent Neural Network"
 date: 2023-04-20
 draft: false
 references:
+    - title: "RNN overview"
+      url: "https://arxiv.org/abs/1912.05911"
 ---
 
 The bedrock of compressed contextual understanding and one of the only methods for early natural language processing tasks, RNNs were some of the best architectures until LSTMs and transformers took over. Some people still argue about the effectiveness of RNNs, and we still see a few [papers](https://arxiv.org/abs/2410.01201) on them ounce in a while.
