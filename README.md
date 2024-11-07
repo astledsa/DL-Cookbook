@@ -62,6 +62,7 @@
     - [ ] SOAP
     - [ ] Prodigy
     - [ ] Reimann SGD
+    - [ ] Muon
 - Distributed Training
     - [ ] MegatronLM
     - [ ] GPipe
