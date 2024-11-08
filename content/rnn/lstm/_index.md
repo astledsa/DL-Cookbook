@@ -109,6 +109,7 @@ def lstm_cell(x, H, C, W_xi, W_hi, W_xf, W_hf, W_xc, W_hc, W_xo, W_ho, b_i, b_f,
     H_next = o * jax.nn.tanh(C_next)
     return H_next, C_next
 
+# 10 iterations or LSTM layers
 for _ in range(10):
     H, C = lstm_cell(x, H, C,
                      W_xi, W_hi, W_xf, W_hf, W_xc, W_hc, W_xo, W_ho, 

@@ -48,5 +48,10 @@ title = 'My New Hugo Site'
    name = "LSTM"
    url = "/rnn/lstm"
    parent = "Recurrent Neural Networks"
-   weight = 2
+   weight = 3
+  [[menu.main]]
+   name = "GRU"
+   url = "/rnn/gru"
+   parent = "Recurrent Neural Networks"
+   weight = 4
 

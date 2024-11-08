@@ -5,7 +5,7 @@
     - RNN
          - [x] Vanilla
          - [x] Bidirectional
-         - [ ] GRU
+         - [x] GRU
          - [x] LSTM
          - [ ] mLSTM
          - [ ] xLSTM
