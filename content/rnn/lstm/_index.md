@@ -13,7 +13,7 @@ One of the most used and known variants is the LSTM: long short-term memory netw
 
 ## Equation
 
-![MLP Diagram](/images/lstm.png)
+![MLP Diagram](/images/lstm2.png)
 
 <table style="border-collapse: collapse;">
   <tr>

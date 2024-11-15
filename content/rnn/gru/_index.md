@@ -13,7 +13,7 @@ A simple modification over RNNs and LSTMs was the gated recurrent unit, made to 
 
 ## Equation
 
-![MLP Diagram](/images/gru.png)
+![MLP Diagram](/images/gru2.png)
 
 <table style="border-collapse: collapse;">
   <tr>

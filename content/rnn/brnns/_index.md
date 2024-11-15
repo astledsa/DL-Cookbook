@@ -13,7 +13,7 @@ Here is one of the first variants of recurrent neural networks, first introduced
 
 ## Equation
 
-![MLP Diagram](/images/brnns.png)
+![MLP Diagram](/images/brnn.png)
 
 <table style="border-collapse: collapse;">
   <tr>

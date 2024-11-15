@@ -17,7 +17,7 @@ If not for the invention and eventual adoption of convolutional networks, deep l
 
 ## Equation
 
-![MLP Diagram](/images/cnn.png)
+![CNN Diagram](/images/cnn2.png)
 
 <table style="border-collapse: collapse;">
   <tr>

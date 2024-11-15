@@ -13,7 +13,7 @@ The bedrock of compressed contextual understanding and one of the only methods f
 
 ## Equation
 
-![MLP Diagram](/images/rnn.png)
+![MLP Diagram](/images/rnn2.png)
 
 <table style="border-collapse: collapse;">
   <tr>

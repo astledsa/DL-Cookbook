@@ -7,8 +7,7 @@
          - [x] Bidirectional
          - [x] GRU
          - [x] LSTM
-         - [ ] mLSTM
-         - [ ] xLSTM
+         - [x] xLSTM
     - [ ] Mamba
     - [ ] Kolgomorov-Arnold Networks
     - [ ] Variational AutoEncoders
@@ -21,10 +20,10 @@
     - [ ] General Adverserial Networks
     - [ ] Graph Neural Networks
     - Transformers
-         - [ ] Linear
-         - [ ] Sparse
+         - [ ] Linear/Sparse/Dense
          - [ ] Gaussian
          - [ ] Differential
+         - [ ] Universal
     - Diffusion
          - [ ] U-net
          - [ ] U-ViT
@@ -36,6 +35,7 @@
         - [ ] Deep Operator Networks
         - [ ] Hamiltonian neural networks
         - [ ] Langragian neural networks
+     - Mixture of Experts
 - Reinforcement learning
      - [ ] Asynchronous Advantage Actor-Critic
      - [ ] Proximal Policy Optimization

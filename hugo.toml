@@ -54,4 +54,9 @@ title = 'My New Hugo Site'
    url = "/rnn/gru"
    parent = "Recurrent Neural Networks"
    weight = 4
+  [[menu.main]]
+   name = "xLSTM"
+   url = "/rnn/xlstm"
+   parent = "Recurrent Neural Networks"
+   weight = 4
 
