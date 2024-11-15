@@ -1,5 +1,5 @@
 **Topics**
-- Deep Learning
+- Architectures
     - [x] MLP
     - [x] CNN
     - RNN
@@ -10,8 +10,9 @@
          - [x] xLSTM
     - [ ] Mamba
     - [ ] Kolgomorov-Arnold Networks
-    - [ ] Variational AutoEncoders
-    - [ ] Sparse Auto-Encoders
+    - Auto-Encoders
+         - [ ] Sparse
+         - [ ] Variational 
     - [ ] Jacobian Fields
     - [ ] Spiking NNs
     - [ ] Hyperbolic NNs
@@ -24,6 +25,9 @@
          - [ ] Gaussian
          - [ ] Differential
          - [ ] Universal
+         - [ ] Negative-Weights
+         - [ ] FlashAttenion
+         - [ ] FlexAttention
     - Diffusion
          - [ ] U-net
          - [ ] U-ViT
