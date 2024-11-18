@@ -1,5 +1,6 @@
 **Topics**
 - Architectures
+
     - [x] MLP
     - [x] CNN
     - RNN
@@ -28,6 +29,7 @@
          - [ ] Negative-Weights
          - [ ] FlashAttenion
          - [ ] FlexAttention
+         - [ ] Recurrent Inference networks
     - Diffusion
          - [ ] U-net
          - [ ] U-ViT
@@ -39,8 +41,11 @@
         - [ ] Deep Operator Networks
         - [ ] Hamiltonian neural networks
         - [ ] Langragian neural networks
-     - Mixture of Experts
+     - [ ] Mixture of Experts
+     - [ ] Fuzzy Neural Networks
+
 - Reinforcement learning
+
      - [ ] Asynchronous Advantage Actor-Critic
      - [ ] Proximal Policy Optimization
      - [ ] Trust Region Policy Optimization
@@ -56,7 +61,9 @@
      - [ ] Model-Based RL with Model-Free Fine-Tuning
      - [ ] Model-Based Value Expansion
      - [ ] AlphaZero
+
 - Optimizers
+
     - [ ] SGD
     - [ ] RMSProp
     - [ ] AdaGrad
@@ -67,7 +74,9 @@
     - [ ] Prodigy
     - [ ] Reimann SGD
     - [ ] Muon
+
 - Distributed Training
+
     - [ ] MegatronLM
     - [ ] GPipe
     - [ ] Alpa
