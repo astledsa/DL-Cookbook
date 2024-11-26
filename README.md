@@ -22,7 +22,9 @@
     - [ ] General Adverserial Networks
     - [ ] Graph Neural Networks
     - Transformers
-         - [ ] Linear/Sparse/Dense
+         - [x] Vanilla
+         - [ ] Linear
+         - [ ] Sparse 
          - [ ] Gaussian
          - [ ] Differential
          - [ ] Universal
@@ -30,6 +32,7 @@
          - [ ] FlashAttenion
          - [ ] FlexAttention
          - [ ] Recurrent Inference networks
+         - [ ] Vision Transformers
     - Diffusion
          - [ ] U-net
          - [ ] U-ViT

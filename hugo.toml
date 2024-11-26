@@ -59,4 +59,13 @@ title = 'My New Hugo Site'
    url = "/rnn/xlstm"
    parent = "Recurrent Neural Networks"
    weight = 4
+  [[menu.main]]
+   name = "Transformers"
+   url = "/transformers/"
+   weight = 2
+  [[menu.main]]
+   name = "Vanilla"
+   url = "/transformers/vanilla"
+   parent = "Transformers"
+   weight = 1
 
