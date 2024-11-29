@@ -9,18 +9,9 @@
          - [x] GRU
          - [x] LSTM
          - [x] xLSTM
-    - [ ] Mamba
-    - [ ] Kolgomorov-Arnold Networks
     - Auto-Encoders
          - [ ] Sparse
          - [ ] Variational 
-    - [ ] Jacobian Fields
-    - [ ] Spiking NNs
-    - [ ] Hyperbolic NNs
-    - [ ] Free-Equivariance NNs
-    - [ ] Neural Causal Models
-    - [ ] General Adverserial Networks
-    - [ ] Graph Neural Networks
     - Transformers
          - [x] Vanilla
          - [x] Linear
@@ -44,8 +35,17 @@
         - [ ] Deep Operator Networks
         - [ ] Hamiltonian neural networks
         - [ ] Langragian neural networks
+     - [ ] Mamba
+     - [ ] Kolgomorov-Arnold Networks
      - [ ] Mixture of Experts
      - [ ] Fuzzy Neural Networks
+     - [ ] Jacobian Fields
+     - [ ] Spiking NNs
+     - [ ] Hyperbolic NNs
+     - [ ] Free-Equivariance NNs
+     - [ ] Neural Causal Models
+     - [ ] General Adverserial Networks
+     - [ ] Graph Neural Networks
 
 - Reinforcement learning
 
