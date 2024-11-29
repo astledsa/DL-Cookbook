@@ -23,7 +23,7 @@
     - [ ] Graph Neural Networks
     - Transformers
          - [x] Vanilla
-         - [ ] Linear
+         - [x] Linear
          - [ ] Sparse 
          - [ ] Gaussian
          - [ ] Differential

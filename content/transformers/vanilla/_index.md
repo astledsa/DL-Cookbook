@@ -23,7 +23,7 @@ The advent of transformers, alongside massive scaling revitalized the field of d
 
 <br>
 
-## Dense Attention Equation
+## Equation
 
 ![Dense Attention Diagram](/images/dattention.png)
 
@@ -53,6 +53,10 @@ The advent of transformers, alongside massive scaling revitalized the field of d
     <td style="vertical-align: middle;">: Key matrix</td>
   </tr>
   <tr>
+    <td style="padding-right: 20px; vertical-align: middle;"><strong>A</strong><i></i></td>
+    <td style="vertical-align: middle;">: Attention matrix</td>
+  </tr>
+  <tr>
     <td style="padding-right: 20px; vertical-align: middle;"><strong>V</strong><i></i></td>
     <td style="vertical-align: middle;">: Value matrix</td>
   </tr>
@@ -64,7 +68,7 @@ The advent of transformers, alongside massive scaling revitalized the field of d
 
 - There have been several theoretical frameworks proposed to understand the inner workings of the attention mechanism, or how transformers learn (and *why* they are so good at it). One of the simplest approaches is to view it as a simple retrieval task: give a query vector, find the most similar key vector, and return it's corresponding value vector as the final answer. The way these vectors are weighted is propotional to all the other vectors, before *and* after the current token (so it also accounts for future tokens, exactly like in bidirectionl RNNs), and produces a weighted sum of it. This case suits perfectly for NLP tasks, but also worked really well with image-related tasks (ViTs).
 
-- A very powerful, and indeed one of the most important features of transformers, is it's ability to learn from any given context, or in-context learning. This enabled it to learn to perform any given NLP task, given a sufficient prompt [3]. Various other theoretical franeworks exist [4, 5, 6, 7], which I shall refrain from mentioning here, as the theoretical framework is yet to be solidified.
+- A very powerful, and indeed one of the most important features of transformers, is it's ability to learn from any given context, or in-context learning. This enabled it to learn to perform any given NLP task, given a sufficient prompt [3]. Various other theories exist [4, 5, 6, 7], which I shall refrain from mentioning here, as the theoretical framework is yet to be solidified.
 
 <br>
 
