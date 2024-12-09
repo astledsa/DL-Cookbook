@@ -15,7 +15,7 @@
     - Transformers
          - [x] Vanilla
          - [x] Linear
-         - [ ] Sparse 
+         - [x] Sparse 
          - [ ] Gaussian
          - [ ] Differential
          - [ ] Universal
@@ -40,9 +40,9 @@
      - [ ] Mixture of Experts
      - [ ] Fuzzy Neural Networks
      - [ ] Jacobian Fields
-     - [ ] Spiking NNs
-     - [ ] Hyperbolic NNs
-     - [ ] Free-Equivariance NNs
+     - [ ] Spiking neural networks
+     - [ ] Hyperbolic neural networks
+     - [ ] Free-Equivariance neural networks
      - [ ] Neural Causal Models
      - [ ] General Adverserial Networks
      - [ ] Graph Neural Networks
@@ -77,6 +77,7 @@
     - [ ] Prodigy
     - [ ] Reimann SGD
     - [ ] Muon
+    - [ ] DeMo
 
 - Distributed Training
 

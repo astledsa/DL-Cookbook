@@ -73,4 +73,9 @@ title = 'My New Hugo Site'
    url = "/transformers/linear"
    parent = "Transformers"
    weight = 1
+  [[menu.main]]
+   name = "Sparse"
+   url = "/transformers/sparse"
+   parent = "Transformers"
+   weight = 1
 
