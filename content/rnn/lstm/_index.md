@@ -66,7 +66,7 @@ One of the most used and known variants is the LSTM: long short-term memory netw
 
 <br>
 
-## Jax Code
+## Code
 
 ```python
 import jax 

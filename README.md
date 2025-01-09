@@ -16,7 +16,7 @@
          - [x] Vanilla
          - [x] Linear
          - [x] Sparse 
-         - [ ] Gaussian
+         - [x] Gaussian
          - [ ] Differential
          - [ ] Universal
          - [ ] Negative-Weights
@@ -24,6 +24,8 @@
          - [ ] FlexAttention
          - [ ] Recurrent Inference networks
          - [ ] Vision Transformers
+         - [ ] Byte Latent Transformers
+         - [ ] Natural Attention
     - Diffusion
          - [ ] U-net
          - [ ] U-ViT

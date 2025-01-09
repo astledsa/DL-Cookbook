@@ -72,7 +72,7 @@ The advent of transformers, alongside massive scaling revitalized the field of d
 
 <br>
 
-## Jax Code
+## Code
 
 ```python
 import jax

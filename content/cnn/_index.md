@@ -54,7 +54,7 @@ If not for the invention and eventual adoption of convolutional networks, deep l
 
 <br>
 
-## Jax Code
+## Code
 
 ```python
 import jax

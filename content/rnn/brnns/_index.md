@@ -68,7 +68,7 @@ Here is one of the first variants of recurrent neural networks, first introduced
 
 <br>
 
-## Jax Code
+## Code
 
 ```python
 import jax 

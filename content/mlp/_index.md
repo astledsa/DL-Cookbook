@@ -60,7 +60,7 @@ The central building block of any deep learning architecture. One of the main fe
 
 <br>
 
-## Jax Code
+## Code
 
 ```python
  import jax

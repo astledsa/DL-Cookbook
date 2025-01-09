@@ -38,7 +38,7 @@ title = 'My New Hugo Site'
    name = "Vanilla"
    url = "/rnn/vanilla"
    parent = "Recurrent Neural Networks"
-   weight = 1
+   weight = 2
   [[menu.main]]
    name = "Bidirectional"
    url = "/rnn/brnns"
@@ -67,7 +67,7 @@ title = 'My New Hugo Site'
    name = "Vanilla"
    url = "/transformers/vanilla"
    parent = "Transformers"
-   weight = 1
+   weight = 2
   [[menu.main]]
    name = "Linear"
    url = "/transformers/linear"

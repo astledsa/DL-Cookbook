@@ -70,7 +70,7 @@ Another variant of the attention mechanism, also created to mitigate the quadrat
 
 <br>
 
-## Jax code
+## code
 
 ```python
 import jax

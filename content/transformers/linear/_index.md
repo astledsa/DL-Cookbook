@@ -66,7 +66,7 @@ The vanilla transformer, or the dense transformer has a glaring flaw: it is ridi
 
 <br>
 
-## Jax Code
+## Code
 
 ```python
 import jax

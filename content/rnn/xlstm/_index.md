@@ -156,7 +156,7 @@ In the modern era of Transformers, LSTMs were long forgotten, until now. The fol
 
 <br>
 
-## Jax Code
+## Code
 
 ```python
 import jax 

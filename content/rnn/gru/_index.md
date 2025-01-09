@@ -56,7 +56,7 @@ A simple modification over RNNs and LSTMs was the gated recurrent unit, made to 
 
 <br>
 
-## Jax Code
+## Code
 
 ```Python
 import jax 

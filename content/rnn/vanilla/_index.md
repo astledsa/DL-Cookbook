@@ -64,7 +64,7 @@ The bedrock of compressed contextual understanding and one of the only methods f
 
 <br>
 
-## Jax Code
+## Code
 
 ```python
 import jax 
