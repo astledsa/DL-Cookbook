@@ -17,7 +17,7 @@
          - [x] Linear
          - [x] Sparse 
          - [x] Gaussian
-         - [ ] Differential
+         - [x] Differential
          - [ ] Universal
          - [ ] Negative-Weights
          - [ ] FlashAttenion
