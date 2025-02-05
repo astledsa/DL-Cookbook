@@ -8,7 +8,7 @@
          - [x] Bidirectional
          - [x] GRU
          - [x] LSTM
-         - [x] xLSTM
+         - [x] xLSTMindex
     - Auto-Encoders
          - [ ] Sparse
          - [ ] Variational 
@@ -80,6 +80,19 @@
     - [ ] Reimann SGD
     - [ ] Muon
     - [ ] DeMo
+    - [ ] Lion
+    - [ ] Sophia
+    - [ ] AdaFactor
+    - [ ] LARS
+    - [ ] LAMB
+    - [ ] AdaBelief
+    - [ ] AdaDelta
+    - [ ] NAdam
+    - [ ] RAdam
+    - [ ] FTRL
+    - [ ] AdaMomentum
+    - [ ] Ranger
+    - [ ] Adan
 
 - Distributed Training
 
@@ -88,3 +101,12 @@
     - [ ] Alpa
     - [ ] Tenplex
     - [ ] DeepSeed
+    - [ ] PipeDream
+    - [ ] ZeRO
+    - [ ] PyTorch DDP
+    - [ ] Horovod
+    - [ ] TensorFlow Distribution Strategy
+    - [ ] Ray Train
+    - [ ] FairScale
+    - [ ] Colossal-AI
+    - [ ] JAX pmap/pjit
