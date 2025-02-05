@@ -101,7 +101,7 @@ b_k = random.normal(key6, (hidden_size,))
 b_v = random.normal(key7, (hidden_size,))
 b_o = random.normal(key7, (embedding_dim,))
 
-def DenseAttention (W_q, W_k, W_v, x):
+def DenseAttention (W_q, W_k, W_v, b_q, b_k, b_v, x):
     Q = jnp.dot(x, W_q) + b_q
     K = jnp.dot(x, W_k) + b_k
     V = jnp.dot(x, W_v) + b_v

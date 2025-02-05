@@ -18,14 +18,12 @@
          - [x] Sparse 
          - [x] Gaussian
          - [x] Differential
-         - [ ] Universal
+         - [x] Universal
          - [ ] Negative-Weights
          - [ ] FlashAttenion
-         - [ ] FlexAttention
-         - [ ] Recurrent Inference networks
          - [ ] Vision Transformers
          - [ ] Byte Latent Transformers
-         - [ ] Natural Attention
+         - [ ] Transformers^2
     - Diffusion
          - [ ] U-net
          - [ ] U-ViT
@@ -48,6 +46,7 @@
      - [ ] Neural Causal Models
      - [ ] General Adverserial Networks
      - [ ] Graph Neural Networks
+     - [ ] Titans
 
 - Reinforcement learning
 
@@ -66,6 +65,7 @@
      - [ ] Model-Based RL with Model-Free Fine-Tuning
      - [ ] Model-Based Value Expansion
      - [ ] AlphaZero
+     - [ ] Group Related Policy Optimization
 
 - Optimizers
 
@@ -87,3 +87,4 @@
     - [ ] GPipe
     - [ ] Alpa
     - [ ] Tenplex
+    - [ ] DeepSeed
