@@ -1,11 +1,11 @@
 # Neural Network Architectures
 
 - ## Basic Architectures
-  - [x] MLP 
-  - [x] CNN
-  - [ ] ResNet
-  - [ ] DenseNet
-  - [ ] EfficientNet
+- [x] MLP 
+- [x] CNN
+- [ ] ResNet
+- [ ] DenseNet
+- [ ] EfficientNet
 
 ## Recurrent Networks
 - [x] Vanilla RNN
