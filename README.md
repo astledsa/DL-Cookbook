@@ -1,233 +1,296 @@
+# DL CookBook Progress
+
+[▓▓▓░░░░░░░░░░░░░░] 5.81% (10/172)
+
 # Neural Network Architectures
 
-- ## Basic Architectures
-- [x] MLP 
-- [x] CNN
-- [ ] ResNet
-- [ ] DenseNet
-- [ ] EfficientNet
+<details>
+  <summary>Basic Architectures</summary>
+  - [x] MLP
+  - [x] CNN
+  - [ ] ResNet
+  - [ ] DenseNet
+  - [ ] EfficientNet
+</details>
 
-## Recurrent Networks
-- [x] Vanilla RNN
-- [x] Bidirectional RNN
-- [x] GRU
-- [x] LSTM
-- [ ] Memory Networks
-- [ ] Neural Turing Machines
-- [ ] Differentiable Neural Computers
-- [ ] Memory-Augmented Neural Networks
+<details>
+  <summary>Recurrent Networks</summary>
+  - [x] Vanilla RNN
+  - [x] Bidirectional RNN
+  - [x] GRU
+  - [x] LSTM
+  - [ ] Memory Networks
+  - [ ] Neural Turing Machines
+  - [ ] Differentiable Neural Computers
+  - [ ] Memory-Augmented Neural Networks
+</details>
 
-## Auto-Encoders
-- [ ] Sparse
-- [ ] Variational
-- [ ] Denoising
-- [ ] Contractive
-- [ ] Convolutional
+<details>
+  <summary>Auto-Encoders</summary>
+  - [ ] Sparse
+  - [ ] Variational
+  - [ ] Denoising
+  - [ ] Contractive
+  - [ ] Convolutional
+</details>
 
-## Transformers
-- [x] Vanilla
-- [x] Linear
-- [x] Sparse 
-- [x] Gaussian
-- [x] Differential
-- [x] Universal
-- [ ] Negative-Weights
-- [ ] FlashAttention (v1/v2/v3)
-- [ ] Vision Transformers (ViT)
-- [ ] Byte Latent Transformers
-- [ ] Transformers^2
-- [ ] Performer
-- [ ] Reformer
-- [ ] Longformer
-- [ ] FNet
-- [ ] Routing Transformers
-- [ ] Perceiver/Perceiver IO
+<details>
+  <summary>Transformers</summary>
+  - [x] Vanilla
+  - [x] Linear
+  - [x] Sparse
+  - [x] Gaussian
+  - [x] Differential
+  - [x] Universal
+  - [ ] Negative-Weights
+  - [ ] FlashAttention (v1/v2/v3)
+  - [ ] Vision Transformers (ViT)
+  - [ ] Byte Latent Transformers
+  - [ ] Transformers^2
+  - [ ] Performer
+  - [ ] Reformer
+  - [ ] Longformer
+  - [ ] FNet
+  - [ ] Routing Transformers
+  - [ ] Perceiver/Perceiver IO
+</details>
 
-## Diffusion Models
-- [ ] U-net
-- [ ] U-ViT
-- [ ] DiT-based
-- [ ] SSM-based
+<details>
+  <summary>Diffusion Models</summary>
+  - [ ] U-net
+  - [ ] U-ViT
+  - [ ] DiT-based
+  - [ ] SSM-based
+</details>
 
-## State Space Models
-- [ ] Mamba
-- [ ] S4
-- [ ] H3
+<details>
+  <summary>State Space Models</summary>
+  - [ ] Mamba
+  - [ ] S4
+  - [ ] H3
+</details>
 
-## Physics-Informed Neural Networks (PINNs)
-- [ ] Neural ODE
-- [ ] Fourier Neural Operator
-- [ ] Deep Operator Networks
-- [ ] Hamiltonian Neural Networks
-- [ ] Lagrangian Neural Networks
+<details>
+  <summary>Physics-Informed Neural Networks (PINNs)</summary>
+  - [ ] Neural ODE
+  - [ ] Fourier Neural Operator
+  - [ ] Deep Operator Networks
+  - [ ] Hamiltonian Neural Networks
+  - [ ] Lagrangian Neural Networks
+</details>
 
-## Graph Neural Networks
-- [ ] Graph Convolutional Networks (GCN)
-- [ ] Graph Attention Networks (GAT)
-- [ ] Message Passing Neural Networks
-- [ ] Graph Transformers
-- [ ] Graph Normalizing Flows
+<details>
+  <summary>Graph Neural Networks</summary>
+  - [ ] Graph Convolutional Networks (GCN)
+  - [ ] Graph Attention Networks (GAT)
+  - [ ] Message Passing Neural Networks
+  - [ ] Graph Transformers
+  - [ ] Graph Normalizing Flows
+</details>
 
-## Generative Adversarial Networks (GANs)
-- [ ] DCGAN
-- [ ] WGAN
-- [ ] CycleGAN
-- [ ] StyleGAN
-- [ ] BigGAN
+<details>
+  <summary>Generative Adversarial Networks (GANs)</summary>
+  - [ ] DCGAN
+  - [ ] WGAN
+  - [ ] CycleGAN
+  - [ ] StyleGAN
+  - [ ] BigGAN
+</details>
 
-## Energy-Based Models
-- [ ] Restricted Boltzmann Machines
-- [ ] Deep Belief Networks
-- [ ] Deep Energy Networks
-- [ ] Normalizing Flows
+<details>
+  <summary>Energy-Based Models</summary>
+  - [ ] Restricted Boltzmann Machines
+  - [ ] Deep Belief Networks
+  - [ ] Deep Energy Networks
+  - [ ] Normalizing Flows
+</details>
 
-## Specialized Architectures
-- [ ] Kolmogorov-Arnold Networks
-- [ ] Mixture of Experts
-- [ ] Fuzzy Neural Networks
-- [ ] Jacobian Fields
-- [ ] Spiking Neural Networks
-- [ ] Hyperbolic Neural Networks
-- [ ] Free-Equivariance Neural Networks
-- [ ] Neural Causal Models
+<details>
+  <summary>Specialized Architectures</summary>
+  - [ ] Kolmogorov-Arnold Networks
+  - [ ] Mixture of Experts
+  - [ ] Fuzzy Neural Networks
+  - [ ] Jacobian Fields
+  - [ ] Spiking Neural Networks
+  - [ ] Hyperbolic Neural Networks
+  - [ ] Free-Equivariance Neural Networks
+  - [ ] Neural Causal Models
+</details>
 
 # Reinforcement Learning Algorithms
 
-## Value-Based Methods
-- [ ] Deep Q-Networks (DQN)
-- [ ] Double DQN
-- [ ] Dueling DQN
-- [ ] Rainbow DQN
-- [ ] Categorical 51-Atom DQN (C51)
-- [ ] Quantile Regression DQN (QR-DQN)
-- [ ] Implicit Quantile Networks (IQN)
+<details>
+  <summary>Value-Based Methods</summary>
+  - [ ] Deep Q-Networks (DQN)
+  - [ ] Double DQN
+  - [ ] Dueling DQN
+  - [ ] Rainbow DQN
+  - [ ] Categorical 51-Atom DQN (C51)
+  - [ ] Quantile Regression DQN (QR-DQN)
+  - [ ] Implicit Quantile Networks (IQN)
+</details>
 
-## Policy Gradient Methods
-- [ ] Asynchronous Advantage Actor-Critic (A3C)
-- [ ] Advantage Actor-Critic (A2C)
-- [ ] Proximal Policy Optimization (PPO)
-- [ ] Trust Region Policy Optimization (TRPO)
-- [ ] Deep Deterministic Policy Gradient (DDPG)
-- [ ] Twin Delayed DDPG (TD3)
-- [ ] Soft Actor-Critic (SAC)
-- [ ] Group Related Policy Optimization (GRPO)
+<details>
+  <summary>Policy Gradient Methods</summary>
+  - [ ] Asynchronous Advantage Actor-Critic (A3C)
+  - [ ] Advantage Actor-Critic (A2C)
+  - [ ] Proximal Policy Optimization (PPO)
+  - [ ] Trust Region Policy Optimization (TRPO)
+  - [ ] Deep Deterministic Policy Gradient (DDPG)
+  - [ ] Twin Delayed DDPG (TD3)
+  - [ ] Soft Actor-Critic (SAC)
+  - [ ] Group Related Policy Optimization (GRPO)
+</details>
 
-## Model-Based Methods
-- [ ] World Models
-- [ ] Imagination-Augmented Agents (I2A)
-- [ ] Model-Based RL with Model-Free Fine-Tuning (MBMF)
-- [ ] Model-Based Value Expansion (MVE)
-- [ ] Dreamer
-- [ ] PlaNet
+<details>
+  <summary>Model-Based Methods</summary>
+  - [ ] World Models
+  - [ ] Imagination-Augmented Agents (I2A)
+  - [ ] Model-Based RL with Model-Free Fine-Tuning (MBMF)
+  - [ ] Model-Based Value Expansion (MVE)
+  - [ ] Dreamer
+  - [ ] PlaNet
+</details>
 
-## Multi-Agent RL
-- [ ] Multi-Agent DDPG (MADDPG)
-- [ ] Counter-Factual Multi-Agent (COMA)
-- [ ] Multi-Agent PPO (MAPPO)
-- [ ] Multi-Agent SAC (MASAC)
+<details>
+  <summary>Multi-Agent RL</summary>
+  - [ ] Multi-Agent DDPG (MADDPG)
+  - [ ] Counter-Factual Multi-Agent (COMA)
+  - [ ] Multi-Agent PPO (MAPPO)
+  - [ ] Multi-Agent SAC (MASAC)
+</details>
 
-## Exploration Strategies
-- [ ] Hindsight Experience Replay (HER)
-- [ ] Random Network Distillation (RND)
-- [ ] Never Give Up (NGU)
-- [ ] Go-Explore
+<details>
+  <summary>Exploration Strategies</summary>
+  - [ ] Hindsight Experience Replay (HER)
+  - [ ] Random Network Distillation (RND)
+  - [ ] Never Give Up (NGU)
+  - [ ] Go-Explore
+</details>
 
-## Game-Playing and Planning
-- [ ] AlphaZero
-- [ ] MuZero
-- [ ] AlphaGo
-- [ ] Monte Carlo Tree Search (MCTS)
+<details>
+  <summary>Game-Playing and Planning</summary>
+  - [ ] AlphaZero
+  - [ ] MuZero
+  - [ ] AlphaGo
+  - [ ] Monte Carlo Tree Search (MCTS)
+</details>
 
-## Offline RL
-- [ ] Conservative Q-Learning (CQL)
-- [ ] Behavior Regularized Actor Critic (BRAC)
-- [ ] Implicit Q-Learning (IQL)
-- [ ] Decision Transformer
+<details>
+  <summary>Offline RL</summary>
+  - [ ] Conservative Q-Learning (CQL)
+  - [ ] Behavior Regularized Actor Critic (BRAC)
+  - [ ] Implicit Q-Learning (IQL)
+  - [ ] Decision Transformer
+</details>
 
-## Meta-RL
-- [ ] RL^2
-- [ ] MAML for RL
-- [ ] PEARL
-- [ ] ProMP
+<details>
+  <summary>Meta-RL</summary>
+  - [ ] RL^2
+  - [ ] MAML for RL
+  - [ ] PEARL
+  - [ ] ProMP
+</details>
 
-## Hierarchical RL
-- [ ] Option-Critic
-- [ ] Hierarchical Actor-Critic (HAC)
-- [ ] HIRO
-- [ ] FUN
+<details>
+  <summary>Hierarchical RL</summary>
+  - [ ] Option-Critic
+  - [ ] Hierarchical Actor-Critic (HAC)
+  - [ ] HIRO
+  - [ ] FUN
+</details>
 
 # Optimization Algorithms
 
-## First-Order Methods
-- [ ] Stochastic Gradient Descent (SGD)
-- [ ] SGD with Momentum
-- [ ] SGD with Nesterov Momentum
-- [ ] AdaGrad
-- [ ] AdaDelta
-- [ ] RMSProp
-- [ ] Adam and Variants
-- [ ] Adam
-- [ ] AdamW
-- [ ] NAdam
-- [ ] RAdam
-- [ ] AdaMomentum
-- [ ] AdaBelief
-- [ ] AdaFactor
+<details>
+  <summary>First-Order Methods</summary>
+  - [ ] Stochastic Gradient Descent (SGD)
+  - [ ] SGD with Momentum
+  - [ ] SGD with Nesterov Momentum
+  - [ ] AdaGrad
+  - [ ] AdaDelta
+  - [ ] RMSProp
+  - [ ] Adam and Variants
+  - [ ] Adam
+  - [ ] AdamW
+  - [ ] NAdam
+  - [ ] RAdam
+  - [ ] AdaMomentum
+  - [ ] AdaBelief
+  - [ ] AdaFactor
+</details>
 
-## Large-Scale/Distributed Training
-- [ ] LARS (Layer-wise Adaptive Rate Scaling)
-- [ ] LAMB (Layer-wise Adaptive Moments for Batch training)
-- [ ] Shampoo
-- [ ] SOAP
-- [ ] FTRL (Follow The Regularized Leader)
+<details>
+  <summary>Large-Scale/Distributed Training</summary>
+  - [ ] LARS (Layer-wise Adaptive Rate Scaling)
+  - [ ] LAMB (Layer-wise Adaptive Moments for Batch training)
+  - [ ] Shampoo
+  - [ ] SOAP
+  - [ ] FTRL (Follow The Regularized Leader)
+</details>
 
-## Recent Innovations
-- [ ] Lion
-- [ ] Prodigy
-- [ ] Sophia
-- [ ] Muon
-- [ ] DeMo
-- [ ] Adan
-- [ ] Ranger
+<details>
+  <summary>Recent Innovations</summary>
+  - [ ] Lion
+  - [ ] Prodigy
+  - [ ] Sophia
+  - [ ] Muon
+  - [ ] DeMo
+  - [ ] Adan
+  - [ ] Ranger
+</details>
 
-## Geometric Methods
-- [ ] Reimann SGD
-- [ ] Natural Gradient Descent
-- [ ] Mirror Descent
+<details>
+  <summary>Geometric Methods</summary>
+  - [ ] Reimann SGD
+  - [ ] Natural Gradient Descent
+  - [ ] Mirror Descent
+</details>
 
-## Adaptive Learning Rate Methods
-- [ ] Cyclical Learning Rates
-- [ ] One Cycle Policy
-- [ ] Cosine Annealing
-- [ ] SGDR (Stochastic Gradient Descent with Restarts)
+<details>
+  <summary>Adaptive Learning Rate Methods</summary>
+  - [ ] Cyclical Learning Rates
+  - [ ] One Cycle Policy
+  - [ ] Cosine Annealing
+  - [ ] SGDR (Stochastic Gradient Descent with Restarts)
+</details>
 
-## Hybrid Methods
-- [ ] AdaScale
-- [ ] NovoGrad
-- [ ] Apollo
-- [ ] MADGRAD
-- [ ] SAM (Sharpness-Aware Minimization)
+<details>
+  <summary>Hybrid Methods</summary>
+  - [ ] AdaScale
+  - [ ] NovoGrad
+  - [ ] Apollo
+  - [ ] MADGRAD
+  - [ ] SAM (Sharpness-Aware Minimization)
+</details>
 
-## Specialized Optimizers
-- [ ] Lookahead Optimizer
-- [ ] Rectified Adam
-- [ ] AGC (Adaptive Gradient Clipping)
-- [ ] LBFGS (Limited-memory BFGS)
-- [ ] AdaMax
-- [ ] AMSGrad
+<details>
+  <summary>Specialized Optimizers</summary>
+  - [ ] Lookahead Optimizer
+  - [ ] Rectified Adam
+  - [ ] AGC (Adaptive Gradient Clipping)
+  - [ ] LBFGS (Limited-memory BFGS)
+  - [ ] AdaMax
+  - [ ] AMSGrad
+</details>
 
 # Distributed Training
-- [ ] MegatronLM
-- [ ] GPipe
-- [ ] Alpa
-- [ ] Tenplex
-- [ ] DeepSeed
-- [ ] PipeDream
-- [ ] ZeRO
-- [ ] PyTorch DDP
-- [ ] Horovod
-- [ ] TensorFlow Distribution Strategy
-- [ ] Ray Train
-- [ ] FairScale
-- [ ] Colossal-AI
-- [ ] JAX pmap/pjit
+
+<details>
+  <summary>Distributed Training</summary>
+  - [ ] MegatronLM
+  - [ ] GPipe
+  - [ ] Alpa
+  - [ ] Tenplex
+  - [ ] DeepSeed
+  - [ ] PipeDream
+  - [ ] ZeRO
+  - [ ] PyTorch DDP
+  - [ ] Horovod
+  - [ ] TensorFlow Distribution Strategy
+  - [ ] Ray Train
+  - [ ] FairScale
+  - [ ] Colossal-AI
+  - [ ] JAX pmap/pjit
+
+</details>
