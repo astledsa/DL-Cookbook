@@ -17,7 +17,11 @@ If not for the invention and eventual adoption of convolutional networks, deep l
 
 ## Equation
 
-![CNN Diagram](/images/cnn2.png)
+\begin{aligned}
+Pool((X \circledast K_{p,s}), h, w)=y
+\end{aligned}
+
+<!-- ![CNN Diagram](/images/cnn2.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>

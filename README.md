@@ -1,6 +1,6 @@
 # DL CookBook Progress
 
-[▓▓▓░░░░░░░░░░░░░░] 5.78% (10/173)
+[▓▓▓░░░░░░░░░░░░░░] 6.8% (13/175)
 
 # Neural Network Architectures
 
@@ -9,7 +9,7 @@
 
   - [x] MLP
   - [x] CNN
-  - [ ] ResNet
+  - [x] ResNet
   - [ ] DenseNet
   - [ ] EfficientNet
 

@@ -13,7 +13,14 @@ Here is one of the first variants of recurrent neural networks, first introduced
 
 ## Equation
 
-![MLP Diagram](/images/brnn.png)
+\begin{aligned}
+\overrightarrow H_t = \phi(XW_{xh}+H_{t-1}W_{hh}+b_t)\newline
+\overleftarrow H_t = \phi(XW_{xh}+H_{t-1}W_{hh}+b_t)\newline
+H_t = conc(\overrightarrow H_t, \overleftarrow H_t)\newline
+O_t = H_tW_{ho} + b_o
+\end{aligned}
+
+<!-- ![MLP Diagram](/images/brnn.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>

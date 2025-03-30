@@ -13,7 +13,14 @@ A simple modification over RNNs and LSTMs was the gated recurrent unit, made to 
 
 ## Equation
 
-![MLP Diagram](/images/gru2.png)
+\begin{aligned}
+R_t = \sigma(XW_{xr}+H_{t-1}W_{hr}+b_r)\newline
+Z_t = \sigma(XW_{xz}+H_{t-1}W_{hf}+b_z)\newline
+\tilde{H_t} = tanh(XW_{xh} + (R \odot H_{t-1})W_{hh} + b_h))\newline
+H_t = Z_t \odot H_{t-1} + (1-Z_t) \odot \tilde{H_t}
+\end{aligned}
+
+<!-- ![MLP Diagram](/images/gru2.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>

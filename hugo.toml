@@ -2,10 +2,16 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
-[markup.goldmark.renderer]
-  unsafe = true
-
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.highlight]
     codeFences = true
     guessSyntax = false
@@ -16,6 +22,9 @@ title = 'My New Hugo Site'
     noClasses = true
     style = "borland"
     tabWidth = 4
+
+[params]
+  math = true
 
 [menu]
   [[menu.main]]
@@ -30,6 +39,11 @@ title = 'My New Hugo Site'
    name = "Basic Architectures"
    parent = "Neural Network Architectures"
    url = "/nna/ba"
+   weight = 1
+  [[menu.main]]
+   name = "ResNet"
+   parent = "Basic Architectures"
+   url = "/nna/ba/resnet/"
    weight = 1
   [[menu.main]]
    name = "Multi-layer Perceptron"

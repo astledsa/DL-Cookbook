@@ -13,7 +13,16 @@ One of the most used and known variants is the LSTM: long short-term memory netw
 
 ## Equation
 
-![MLP Diagram](/images/lstm2.png)
+\begin{aligned}
+I_t = \sigma(XW_{xi}+H_{t-1}W_{hi}+b_i)\newline
+F_t = \sigma(XW_{xf}+H_{t-1}W_{hf}+b_f)\newline
+O_t = \sigma(XW_{xo}+H_{t-1}W_{ho}+b_o)\newline
+\tilde{C_t} = tanh(XW_{xc}+H_{t-1}W_{hc}+b_c)\newline
+C_t = F_t \odot C_{t-1} + I_t \odot \tilde{C_t}\newline
+H_t = O_t \odot tanh(C_t)
+\end{aligned}
+
+<!-- ![MLP Diagram](/images/lstm2.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>

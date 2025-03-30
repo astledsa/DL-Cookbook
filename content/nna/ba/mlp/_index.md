@@ -17,7 +17,11 @@ The central building block of any deep learning architecture. One of the main fe
 
 ## Equation
 
-![MLP Diagram](/images/mlp2.png)
+\begin{aligned}
+W_2\sigma(XW_1+b_1)+b_2=y
+\end{aligned}
+
+<!-- ![MLP Diagram](/images/mlp2.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>
