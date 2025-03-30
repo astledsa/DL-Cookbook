@@ -23,74 +23,88 @@ title = 'My New Hugo Site'
     url = "/"
     weight = 1
   [[menu.main]]
+   name = "Neural Network Architectures"
+   url = "/nna/"
+   weight = 1
+  [[menu.main]]
+   name = "Basic Architectures"
+   parent = "Neural Network Architectures"
+   url = "/nna/ba"
+   weight = 1
+  [[menu.main]]
    name = "Multi-layer Perceptron"
-   url = "/mlp/"
+   parent = "Basic Architectures"
+   url = "/nna/ba/mlp/"
    weight = 1
   [[menu.main]]
    name = "Convolutional Neural Networks"
-   url = "/cnn/"
+   parent = "Basic Architectures"
+   url = "/nna/ba/cnn/"
    weight = 2
   [[menu.main]]
-   name = "Recurrent Neural Networks"
+   name = "Recurrent Networks"
+   parent = "Neural Network Architectures"
    url = "/rnn/"
    weight = 2
   [[menu.main]]
    name = "Vanilla"
-   url = "/rnn/vanilla"
-   parent = "Recurrent Neural Networks"
+   url = "/nna/rnn/vanilla"
+   parent = "Recurrent Networks"
    weight = 2
   [[menu.main]]
    name = "Bidirectional"
-   url = "/rnn/brnns"
-   parent = "Recurrent Neural Networks"
+   url = "/nna/rnn/brnns"
+   parent = "Recurrent Networks"
    weight = 2
   [[menu.main]]
    name = "LSTM"
-   url = "/rnn/lstm"
-   parent = "Recurrent Neural Networks"
+   url = "/nna/rnn/lstm"
+   parent = "Recurrent Networks"
    weight = 3
   [[menu.main]]
    name = "GRU"
-   url = "/rnn/gru"
-   parent = "Recurrent Neural Networks"
+   url = "/nna/rnn/gru"
+   parent = "Recurrent Networks"
    weight = 4
   [[menu.main]]
    name = "xLSTM"
-   url = "/rnn/xlstm"
-   parent = "Recurrent Neural Networks"
+   url = "/nna/rnn/xlstm"
+   parent = "Recurrent Networks"
    weight = 4
   [[menu.main]]
    name = "Transformers"
-   url = "/transformers/"
+   parent = "Neural Network Architectures"
+   url = "/nna/transformers/"
    weight = 2
   [[menu.main]]
    name = "Vanilla"
-   url = "/transformers/vanilla"
+   url = "/nna/transformers/vanilla"
    parent = "Transformers"
    weight = 2
   [[menu.main]]
    name = "Linear"
-   url = "/transformers/linear"
+   url = "/nna/transformers/linear"
    parent = "Transformers"
    weight = 1
   [[menu.main]]
    name = "Sparse"
-   url = "/transformers/sparse"
+   url = "/nna/transformers/sparse"
    parent = "Transformers"
    weight = 1
   [[menu.main]]
    name = "Gaussian"
-   url = "/transformers/gaussian"
+   url = "/nna/transformers/gaussian"
    parent = "Transformers"
    weight = 2
   [[menu.main]]
    name = "Differential"
-   url = "/transformers/differential"
+   url = "/nna/transformers/differential"
    parent = "Transformers"
    weight = 2
   [[menu.main]]
    name = "Universal"
-   url = "/transformers/universal"
+   url = "/nna/transformers/universal"
    parent = "Transformers"
    weight = 2
+  
 

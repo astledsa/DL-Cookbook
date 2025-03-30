@@ -85,7 +85,7 @@ body {
 }
 
 .dropdown-menu {
-    display: none;
+    /* display: none; */
     list-style-type: none;
     padding-left: 20px;
 }
