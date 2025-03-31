@@ -13,7 +13,15 @@ The problems that needed to be solved have changed since the advent of deep lear
 
 ## Equation
 
-![Differential Attention Diagram](/images/diff.png)
+\begin{align}
+Q_1,Q_2=W_qx+b_q\newline
+K_1,K_2=W_kx+b_k\newline
+V=W_vx+b_v\newline
+A=(softmax(\frac{Q_1K_1^T}{\sqrt{d_k}})-\lambda \cdot softmax(\frac{Q_2K_2^T}{\sqrt{d_k}}))V\newline
+y=W_oA+b_o\newline
+\end{align}
+
+<!-- ![Differential Attention Diagram](/images/diff.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>

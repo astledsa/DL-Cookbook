@@ -25,7 +25,15 @@ The advent of transformers, alongside massive scaling revitalized the field of d
 
 ## Equation
 
-![Dense Attention Diagram](/images/dattention.png)
+\begin{align*}
+Q &= W_q x + b_q\newline
+K &= W_k x + b_k\newline
+V &= W_v x + b_v\newline
+A &= softmax\left(\frac{QK^T}{\sqrt{d_k}}\right) V\newline
+y &= W_o A + b_o
+\end{align*}
+
+<!-- ![Dense Attention Diagram](/images/dattention.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>

@@ -13,7 +13,16 @@ An older (comparatively) version of transformers, this was an early attempt at i
 
 ## Equation
 
-![Universal Attention Diagram](/images/ut.png)
+\begin{align}
+Q &= W_q (H_{t-1} + P_t) + b_q\newline
+K &= W_k (H_{t-1} + P_t) + b_k\newline
+V &= W_v (H_{t-1} + P_t) + b_v\newline
+O &= W_o \left( softmax \left( \frac{QK^T}{\sqrt{d_k}} \right) V \right) + b_o\newline
+A_t &= L(H_{t-1} + P_t) + O\newline
+H_t &= L(A_t + T(A_t))
+\end{align}
+
+<!-- ![Universal Attention Diagram](/images/ut.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>

@@ -13,7 +13,16 @@ As transformers became more and more popular, research into finding better and m
 
 ## Equation
 
-![Gaussian Attention Diagram](/images/gaam.png)
+\begin{align*}
+\mu &= \frac{1}{N} \sum_{i=1}^n x_{ij}\newline
+\sigma^2 &= \frac{1}{N} \sum_{i=1}^n (x_{ij})^2 - (\mu)^2\newline
+\phi &= \mu + \delta\newline
+x_{norm} &= \frac{x - \phi}{\sqrt{\sigma^2 - \epsilon}}\newline
+G &= exp\left( -\frac{x_{norm}^2}{2 \xi} \right)\newline
+y &= X \odot G
+\end{align*}
+
+<!-- ![Gaussian Attention Diagram](/images/gaam.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>

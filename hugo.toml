@@ -46,6 +46,11 @@ title = 'My New Hugo Site'
    url = "/nna/ba/resnet/"
    weight = 1
   [[menu.main]]
+   name = "DenseNet"
+   parent = "Basic Architectures"
+   url = "/nna/ba/densenet/"
+   weight = 1
+  [[menu.main]]
    name = "Multi-layer Perceptron"
    parent = "Basic Architectures"
    url = "/nna/ba/mlp/"
@@ -61,10 +66,10 @@ title = 'My New Hugo Site'
    url = "/rnn/"
    weight = 2
   [[menu.main]]
-   name = "Vanilla"
+   name = "Vanilla Recurrent"
    url = "/nna/rnn/vanilla"
    parent = "Recurrent Networks"
-   weight = 2
+   weight = 3
   [[menu.main]]
    name = "Bidirectional"
    url = "/nna/rnn/brnns"
@@ -91,7 +96,7 @@ title = 'My New Hugo Site'
    url = "/nna/transformers/"
    weight = 2
   [[menu.main]]
-   name = "Vanilla"
+   name = "Vanilla Transformer"
    url = "/nna/transformers/vanilla"
    parent = "Transformers"
    weight = 2

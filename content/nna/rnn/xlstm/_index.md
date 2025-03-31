@@ -13,7 +13,20 @@ In the modern era of Transformers, LSTMs were long forgotten, until now. The fol
 
 ## sLSTM Equation
 
-![MLP Diagram](/images/slstm.png)
+\begin{align}
+I_t=e^{XW_{xi}+H_{t-1}R_i+b_i}\newline
+F_t=e^{XW_{xf}+H_{t-1}R_f+b_f}\newline
+O_t=\sigma({XW_{xo}+H_{t-1}R_o+b_o})\newline
+Z_t=\sigma({XW_{xz}+H_{t-1}R_z+b_z})\newline
+C_t=F_t \odot C_{t-1} + I_t \odot Z_t\newline
+N_t=F_t \odot N_{t-1} + I_t\newline
+H_t=O_t(C_t/N_t)\newline
+M_t=max(log(F_t) + M_{t-1}, log(I_t))\newline
+I'=e^{XW_{xi}+H_{t-1}R_i+b_i} - M_t\newline
+F'=e^{log(F_t) + M_{t-1}-M_t}
+\end{align}
+
+<!-- ![MLP Diagram](/images/slstm.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>
@@ -82,7 +95,19 @@ In the modern era of Transformers, LSTMs were long forgotten, until now. The fol
 
 ## mLSTM Equation
 
-![MLP Diagram](/images/mlstm.png)
+\begin{align}
+I_t=e^{XW_{xi}+b_i}\newline
+F_t=e^{XW_{xf}+b_f}\newline
+O_t=\sigma(XW_{xo}+b_o)\newline
+Q_t=W_qX+b_q\newline
+K_t=(1/\sqrt{d})W_kX+b_k\newline
+V_t=W_vX+b_v\newline
+C_t=F_t \odot C_{t-1}+I_t \odot (V_tK_t^t)\newline
+N_t=F_t \odot N_{t-1}+I_t \odot K_t\newline
+H_t=O_t \odot ((C_t/Q_t)/max(|N_t^tQ_t|, 1))
+\end{align}
+
+<!-- ![MLP Diagram](/images/mlstm.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>

@@ -13,7 +13,15 @@ The vanilla transformer, or the dense transformer has a glaring flaw: it is ridi
 
 ## Equation
 
-![Linear Attention Diagram](/images/lattention.png)
+\begin{align}
+Q=W_qx+b_q\newline
+K=W_kx+b_k\newline
+V=W_vx+b_v\newline
+A=\phi(Q)(\phi(K)^TV)\newline
+y=W_oA+b_o\newline
+\end{align}
+
+<!-- ![Linear Attention Diagram](/images/lattention.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>

@@ -13,7 +13,12 @@ The bedrock of compressed contextual understanding and one of the only methods f
 
 ## Equation
 
-![MLP Diagram](/images/rnn2.png)
+\begin{align}
+H_t=\phi(XW_{xh}+H_{t-1}W_{hh}+b_t)\newline
+O_t=H_tW_{ho}+b_o
+\end{align}
+
+<!-- ![MLP Diagram](/images/rnn2.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>

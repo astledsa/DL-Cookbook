@@ -15,7 +15,19 @@ Another variant of the attention mechanism, also created to mitigate the quadrat
 
 ## Equation
 
-![Sparse Attention Diagram](/images/sparse2.png)
+\begin{align}
+Q=W_qx+b_q\newline
+K=W_kx+b_k\newline
+V=W_vx+b_v\newline
+A=softmax(\frac{QK^T}{\sqrt{d_k}} \odot S^i)\newline
+y=W_oA+b_o\newline
+S^1 = (t, t+1, ..., i), t \in max(0, i-1)\newline
+S^2 = (j: (i-j) \quad mod \quad l = 0)\newline
+S^3 = (j: \lfloor{j/l}\rfloor = \lfloor{i/l}\rfloor)\newline
+S^4 = (j: j \quad mod \quad l=(t, t+1, ..., l)), t=1-c
+\end{align}
+
+<!-- ![Sparse Attention Diagram](/images/sparse2.png) -->
 
 <table style="border-collapse: collapse;">
   <tr>
