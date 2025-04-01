@@ -1,6 +1,6 @@
 # DL CookBook Progress
 
-[▓▓▓░░░░░░░░░░░░░░] 6.8% (14/175)
+[▓▓▓░░░░░░░░░░░░░░] 8% (14/175)
 
 # Neural Network Architectures
 
