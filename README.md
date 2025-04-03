@@ -1,6 +1,6 @@
 # DL CookBook Progress
 
-[▓▓▓░░░░░░░░░░░░░░] 8.6% (15/174)
+[▓▓▓░░░░░░░░░░░░░░] 8.7% (15/171)
 
 # Neural Network Architectures
 
@@ -15,16 +15,13 @@
 </details>
 
 <details>
-  <summary>Recurrent Networks (5/8)</summary>
+  <summary>Recurrent Networks (5/5)</summary>
 
   - [x] Vanilla RNN
   - [x] Bidirectional RNN
   - [x] GRU
   - [x] LSTM
   - [x] Memory Networks
-  - [ ] Neural Turing Machines
-  - [ ] Differentiable Neural Computers
-  - [ ] Memory-Augmented Neural Networks
 
 </details>
 
@@ -351,3 +348,9 @@
   - [ ] JAX pmap/pjit
 
 </details>
+
+# Architectures Excluded
+
+- Neural Turing Machines
+- Differentiable Neural Computers
+- Memory-Augmented Neural Networks

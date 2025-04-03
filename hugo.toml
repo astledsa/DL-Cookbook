@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'The CookBook'
 
 [markup]
   [markup.goldmark]
