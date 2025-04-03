@@ -2,7 +2,7 @@
 
 [▓▓▓░░░░░░░░░░░░░░] 8.7% (15/171)
 
-# Neural Network Architectures
+## Neural Network Architectures
 
 <details>
   <summary>Basic Architectures (4/4)</summary>
@@ -138,7 +138,7 @@
 
 </details>
 
-# Reinforcement Learning Algorithms
+## Reinforcement Learning Algorithms
 
 <details>
   <summary>Value-Based Methods (0/7)</summary>
@@ -239,7 +239,7 @@
 
 </details>
 
-# Optimization Algorithms
+## Optimization Algorithms
 
 <details>
   <summary>First-Order Methods (0/14)</summary>
@@ -327,7 +327,7 @@
 
 </details>
 
-# Distributed Training
+## Distributed Training
 
 <details>
   <summary>Distributed Training (0/14)</summary>
@@ -348,6 +348,8 @@
   - [ ] JAX pmap/pjit
 
 </details>
+
+<br>
 
 # Architectures Excluded
 
