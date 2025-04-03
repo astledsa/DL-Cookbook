@@ -5,7 +5,7 @@
 # Neural Network Architectures
 
 <details>
-  <summary>Basic Architectures (4)</summary>
+  <summary>Basic Architectures (4/4)</summary>
 
   - [x] MLP
   - [x] CNN
@@ -15,7 +15,7 @@
 </details>
 
 <details>
-  <summary>Recurrent Networks (8)</summary>
+  <summary>Recurrent Networks (5/8)</summary>
 
   - [x] Vanilla RNN
   - [x] Bidirectional RNN
@@ -29,7 +29,7 @@
 </details>
 
 <details>
-  <summary>Auto-Encoders (5)</summary>
+  <summary>Auto-Encoders (0/5)</summary>
 
   - [ ] Sparse
   - [ ] Variational
@@ -40,7 +40,7 @@
 </details>
 
 <details>
-  <summary>Transformers (18)</summary>
+  <summary>Transformers (6/18)</summary>
 
   - [x] Vanilla
   - [x] Linear
@@ -64,7 +64,7 @@
 </details>
 
 <details>
-  <summary>Diffusion Models (5)</summary>
+  <summary>Diffusion Models (0/5)</summary>
 
   - [ ] U-net
   - [ ] U-ViT
@@ -75,7 +75,7 @@
 </details>
 
 <details>
-  <summary>State Space Models (3)</summary>
+  <summary>State Space Models (0/3)</summary>
 
   - [ ] Mamba
   - [ ] S4
@@ -84,7 +84,7 @@
 </details>
 
 <details>
-  <summary>Physics-Informed Neural Networks (5)</summary>
+  <summary>Physics-Informed Neural Networks (0/5)</summary>
 
   - [ ] Neural ODE
   - [ ] Fourier Neural Operator
@@ -95,7 +95,7 @@
 </details>
 
 <details>
-  <summary>Graph Neural Networks (5)</summary>
+  <summary>Graph Neural Networks (0/5)</summary>
 
   - [ ] Graph Convolutional Networks (GCN)
   - [ ] Graph Attention Networks (GAT)
@@ -106,7 +106,7 @@
 </details>
 
 <details>
-  <summary>Generative Adversarial Networks (5)</summary>
+  <summary>Generative Adversarial Networks (0/5)</summary>
 
   - [ ] DCGAN
   - [ ] WGAN
@@ -117,7 +117,7 @@
 </details>
 
 <details>
-  <summary>Energy-Based Models (4)</summary>
+  <summary>Energy-Based Models (0/4)</summary>
 
   - [ ] Restricted Boltzmann Machines
   - [ ] Deep Belief Networks
@@ -127,7 +127,7 @@
 </details>
 
 <details>
-  <summary>Specialized Architectures (9)</summary>
+  <summary>Specialized Architectures (0/9)</summary>
 
   - [ ] Kolmogorov-Arnold Networks
   - [ ] Mixture of Experts
@@ -144,7 +144,7 @@
 # Reinforcement Learning Algorithms
 
 <details>
-  <summary>Value-Based Methods (7)</summary>
+  <summary>Value-Based Methods (0/7)</summary>
 
   - [ ] Deep Q-Networks (DQN)
   - [ ] Double DQN
@@ -157,7 +157,7 @@
 </details>
 
 <details>
-  <summary>Policy Gradient Methods (8)</summary>
+  <summary>Policy Gradient Methods (0/8)</summary>
 
   - [ ] Asynchronous Advantage Actor-Critic (A3C)
   - [ ] Advantage Actor-Critic (A2C)
@@ -171,7 +171,7 @@
 </details>
 
 <details>
-  <summary>Model-Based Methods (6)</summary>
+  <summary>Model-Based Methods (0/6)</summary>
 
   - [ ] World Models
   - [ ] Imagination-Augmented Agents (I2A)
@@ -183,7 +183,7 @@
 </details>
 
 <details>
-  <summary>Multi-Agent RL (4)</summary>
+  <summary>Multi-Agent RL (0/4)</summary>
 
   - [ ] Multi-Agent DDPG (MADDPG)
   - [ ] Counter-Factual Multi-Agent (COMA)
@@ -193,7 +193,7 @@
 </details>
 
 <details>
-  <summary>Exploration Strategies (4)</summary>
+  <summary>Exploration Strategies (0/4)</summary>
 
   - [ ] Hindsight Experience Replay (HER)
   - [ ] Random Network Distillation (RND)
@@ -203,7 +203,7 @@
 </details>
 
 <details>
-  <summary>Game-Playing and Planning (4)</summary>
+  <summary>Game-Playing and Planning (0/4)</summary>
 
   - [ ] AlphaZero
   - [ ] MuZero
@@ -213,7 +213,7 @@
 </details>
 
 <details>
-  <summary>Offline RL (4)</summary>
+  <summary>Offline RL (0/4)</summary>
 
   - [ ] Conservative Q-Learning (CQL)
   - [ ] Behavior Regularized Actor Critic (BRAC)
@@ -223,7 +223,7 @@
 </details>
 
 <details>
-  <summary>Meta-RL (4)</summary>
+  <summary>Meta-RL (0/4)</summary>
 
   - [ ] RL^2
   - [ ] MAML for RL
@@ -233,7 +233,7 @@
 </details>
 
 <details>
-  <summary>Hierarchical RL (4)</summary>
+  <summary>Hierarchical RL (0/4)</summary>
 
   - [ ] Option-Critic
   - [ ] Hierarchical Actor-Critic (HAC)
@@ -245,7 +245,7 @@
 # Optimization Algorithms
 
 <details>
-  <summary>First-Order Methods (14)</summary>
+  <summary>First-Order Methods (0/14)</summary>
 
   - [ ] Stochastic Gradient Descent (SGD)
   - [ ] SGD with Momentum
@@ -265,7 +265,7 @@
 </details>
 
 <details>
-  <summary>Large-Scale/Distributed Training (5)</summary>
+  <summary>Large-Scale/Distributed Training (0/5)</summary>
 
   - [ ] LARS (Layer-wise Adaptive Rate Scaling)
   - [ ] LAMB (Layer-wise Adaptive Moments for Batch training)
@@ -276,7 +276,7 @@
 </details>
 
 <details>
-  <summary>Recent Innovations (7)</summary>
+  <summary>Recent Innovations (0/7)</summary>
 
   - [ ] Lion
   - [ ] Prodigy
@@ -289,7 +289,7 @@
 </details>
 
 <details>
-  <summary>Geometric Methods (3)</summary>
+  <summary>Geometric Methods (0/3)</summary>
 
   - [ ] Reimann SGD
   - [ ] Natural Gradient Descent
@@ -298,7 +298,7 @@
 </details>
 
 <details>
-  <summary>Adaptive Learning Rate Methods (4)</summary>
+  <summary>Adaptive Learning Rate Methods (0/4)</summary>
 
   - [ ] Cyclical Learning Rates
   - [ ] One Cycle Policy
@@ -308,7 +308,7 @@
 </details>
 
 <details>
-  <summary>Hybrid Methods (5)</summary>
+  <summary>Hybrid Methods (0/5)</summary>
 
   - [ ] AdaScale
   - [ ] NovoGrad
@@ -319,7 +319,7 @@
 </details>
 
 <details>
-  <summary>Specialized Optimizers (6)</summary>
+  <summary>Specialized Optimizers (0/6)</summary>
 
   - [ ] Lookahead Optimizer
   - [ ] Rectified Adam
@@ -333,7 +333,7 @@
 # Distributed Training
 
 <details>
-  <summary>Distributed Training (14)</summary>
+  <summary>Distributed Training (0/14)</summary>
   
   - [ ] MegatronLM
   - [ ] GPipe
