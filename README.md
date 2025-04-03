@@ -1,17 +1,16 @@
 # DL CookBook Progress
 
-[▓▓▓░░░░░░░░░░░░░░] 8% (14/175)
+[▓▓▓░░░░░░░░░░░░░░] 8.6% (15/174)
 
 # Neural Network Architectures
 
 <details>
-  <summary>Basic Architectures (5)</summary>
+  <summary>Basic Architectures (4)</summary>
 
   - [x] MLP
   - [x] CNN
   - [x] ResNet
   - [x] DenseNet
-  - [ ] EfficientNet
 
 </details>
 
@@ -22,7 +21,7 @@
   - [x] Bidirectional RNN
   - [x] GRU
   - [x] LSTM
-  - [ ] Memory Networks
+  - [x] Memory Networks
   - [ ] Neural Turing Machines
   - [ ] Differentiable Neural Computers
   - [ ] Memory-Augmented Neural Networks

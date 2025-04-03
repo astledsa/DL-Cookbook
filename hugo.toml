@@ -55,6 +55,11 @@ title = 'My New Hugo Site'
    parent = "Basic Architectures"
    url = "/nna/ba/mlp/"
    weight = 1
+   [[menu.main]]
+   name = "Memory Networks"
+   parent = "Basic Architectures"
+   url = "/nna/ba/memn/"
+   weight = 1
   [[menu.main]]
    name = "Convolutional Neural Networks"
    parent = "Basic Architectures"
