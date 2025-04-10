@@ -1,6 +1,6 @@
 # DL CookBook Progress
 
-[▓▓▓░░░░░░░░░░░░░░] 8.7% (15/171)
+[▓▓▓░░░░░░░░░░░░░░] 9.3% (16/171)
 
 ## Neural Network Architectures
 
@@ -26,10 +26,10 @@
 </details>
 
 <details>
-  <summary>Auto-Encoders (0/5)</summary>
+  <summary>Auto-Encoders (1/5)</summary>
 
   - [ ] Sparse
-  - [ ] Variational
+  - [x] Variational
   - [ ] Denoising
   - [ ] Contractive
   - [ ] Convolutional
