@@ -96,6 +96,16 @@ title = 'The CookBook'
    parent = "Recurrent Networks"
    weight = 4
   [[menu.main]]
+   name = "Auto-Encoders"
+   parent = "Neural Network Architectures"
+   url = "/nna/autoencoders/"
+   weight = 2
+  [[menu.main]]
+   name = "Variational"
+   parent = "Auto-Encoders"
+   url = "/nna/autoencoders/variational"
+   weight = 2
+  [[menu.main]]
    name = "Transformers"
    parent = "Neural Network Architectures"
    url = "/nna/transformers/"
