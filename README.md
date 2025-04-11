@@ -1,6 +1,6 @@
 # DL CookBook Progress
 
-[▓▓▓░░░░░░░░░░░░░░] 9.3% (16/171)
+[▓▓▓░░░░░░░░░░░░░░] 9.4% (16/169)
 
 ## Neural Network Architectures
 
@@ -26,13 +26,12 @@
 </details>
 
 <details>
-  <summary>Auto-Encoders (1/5)</summary>
+  <summary>Auto-Encoders (1/4)</summary>
 
   - [ ] Sparse
   - [x] Variational
-  - [ ] Denoising
   - [ ] Contractive
-  - [ ] Convolutional
+  - [ ] VQ-VAE
 
 </details>
 
@@ -61,13 +60,12 @@
 </details>
 
 <details>
-  <summary>Diffusion Models (0/5)</summary>
+  <summary>Diffusion Models (0/4)</summary>
 
-  - [ ] U-net
-  - [ ] U-ViT
-  - [ ] DiT-based
-  - [ ] SSM-based
-  - [ ] Large Language Diffusion Models
+  - [ ] DDPM
+  - [ ] DDIM
+  - [ ] Latent Diffusion
+  - [ ] Large Language Diffusion
 
 </details>
 
@@ -356,3 +354,6 @@
 - Neural Turing Machines
 - Differentiable Neural Computers
 - Memory-Augmented Neural Networks
+- Beta Variational Auto-encoders
+- Convolutional Auto-encoders
+- Conditional Auto-encoders
