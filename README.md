@@ -1,6 +1,6 @@
 # DL CookBook Progress
 
-[▓▓▓░░░░░░░░░░░░░░] 9.4% (16/169)
+[▓▓▓░░░░░░░░░░░░░░] 9.3% (16/172)
 
 ## Neural Network Architectures
 
@@ -46,7 +46,6 @@
   - [x] Universal
   - [ ] Negative-Weights
   - [ ] FlashAttention (v1/v2/v3)
-  - [ ] Vision Transformers (ViT)
   - [ ] Byte Latent Transformers
   - [ ] Transformers^2
   - [ ] Performer
@@ -122,14 +121,24 @@
 </details>
 
 <details>
-  <summary>Specialized Architectures (0/9)</summary>
+  <summary>Hyperbolic Networks (0/5)</summary>
+
+  - [ ] H-Attention Network
+  - [ ] H-Graph Network
+  - [ ] H-Normalizing Flows
+  - [ ] H-VAE
+  - [ ] Mixed Geometry Networks
+
+</details>
+
+<details>
+  <summary>Specialized Architectures (0/8)</summary>
 
   - [ ] Kolmogorov-Arnold Networks
   - [ ] Mixture of Experts
   - [ ] Fuzzy Neural Networks
   - [ ] Jacobian Fields
   - [ ] Spiking Neural Networks
-  - [ ] Hyperbolic Neural Networks
   - [ ] Free-Equivariance Neural Networks
   - [ ] Neural Causal Models
   - [ ] Large Concept Models
@@ -357,3 +366,4 @@
 - Beta Variational Auto-encoders
 - Convolutional Auto-encoders
 - Conditional Auto-encoders
+- Vision Transformers
