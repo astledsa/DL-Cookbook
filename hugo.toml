@@ -106,6 +106,11 @@ title = 'The CookBook'
    url = "/nna/autoencoders/variational"
    weight = 2
   [[menu.main]]
+   name = "VQ-VAE"
+   parent = "Auto-Encoders"
+   url = "/nna/autoencoders/vqvae"
+   weight = 2
+  [[menu.main]]
    name = "Transformers"
    parent = "Neural Network Architectures"
    url = "/nna/transformers/"

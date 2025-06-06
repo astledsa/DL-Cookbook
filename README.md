@@ -1,6 +1,6 @@
 # DL CookBook Progress
 
-[▓▓▓░░░░░░░░░░░░░░] 9.3% (16/172)
+[▓▓▓░░░░░░░░░░░░░░] 9.8% (17/172)
 
 ## Neural Network Architectures
 
@@ -31,7 +31,7 @@
   - [ ] Sparse
   - [x] Variational
   - [ ] Contractive
-  - [ ] VQ-VAE
+  - [x] VQ-VAE
 
 </details>
 
