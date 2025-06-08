@@ -32,3 +32,4 @@ yarn-error.log*
 
 # Optional: Ignore node_modules if you're using npm
 # node_modules/
+.vercel

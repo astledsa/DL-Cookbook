@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <!-- ... (keep your existing head content) ... -->
     {{ $style := resources.Get "css/main.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
