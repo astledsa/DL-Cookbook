@@ -79,7 +79,7 @@ Note: as in the case of VAE, the below given equation is a **loss function**, an
 
 - The second term of the loss function is simply the **embeddings loss**, which optimizes the embedding space using the VQ algorithm with an l<sub>2</sub> loss. The purpose of this term is to minimize the distance between the encoder's outputs and our embedding vectors _e_. The stop gradient operator basically stops the flow of gradient from this loss function into the encoder, and hence the encoder outputs remain a constant in that term (this is done since the second term is to mainly optimize the dictionary).
 
-- Since the embedding space is _dimensionless_, the encoder might never settle into an embedding space. To counter this, the third loss term is utilised, called the **commitment loss**. This loss term minimizes the distance between the encoders and a _constant_ embedding space (which is kept constant by ceasing the flow of gradient to the embedding vectors, through the stop gradient operator). This makes sure that the encoder learns to map close to an embedding space while training.
+- Since the embedding space is "_dimensionless_" (dimensionless here means the embedding space could be ill defined, hence the encoder might never get close to learning any meaningful represenation), the encoder might never settle into an embedding space. To counter this, the third loss term is utilised, called the **commitment loss**. This loss term minimizes the distance between the encoders and a _constant_ embedding space (which is kept constant by ceasing the flow of gradient to the embedding vectors, through the stop gradient operator). This makes sure that the encoder learns to map close to an embedding space while training.
 
 <br>
 
