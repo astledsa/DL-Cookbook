@@ -1,6 +1,6 @@
 # DL CookBook Progress
 
-[▓▓▓░░░░░░░░░░░░░░] 9.8% (17/172)
+[▓▓▓░░░░░░░░░░░░░░] 10.16% (18/177)
 
 ## Neural Network Architectures
 
@@ -26,17 +26,17 @@
 </details>
 
 <details>
-  <summary>Auto-Encoders (1/4)</summary>
+  <summary>Auto-Encoders (3/4)</summary>
 
-  - [ ] Sparse
+  - [x] Sparse
   - [x] Variational
-  - [ ] Contractive
+  - [x] Contractive
   - [x] VQ-VAE
 
 </details>
 
 <details>
-  <summary>Transformers (6/18)</summary>
+  <summary>Transformers (6/12)</summary>
 
   - [x] Vanilla
   - [x] Linear
@@ -48,13 +48,8 @@
   - [ ] FlashAttention (v1/v2/v3)
   - [ ] Byte Latent Transformers
   - [ ] Transformers^2
-  - [ ] Performer
-  - [ ] Reformer
-  - [ ] Longformer
-  - [ ] FNet
-  - [ ] Routing Transformers
-  - [ ] Perceiver/Perceiver IO
-  - [ ] SinkFormers
+  - [ ] Titans
+  - [ ] Atlas
 
 </details>
 
@@ -367,3 +362,10 @@
 - Convolutional Auto-encoders
 - Conditional Auto-encoders
 - Vision Transformers
+- Performer
+- Reformer
+- Longformer
+- FNet
+- Routing Transformers
+- Perceiver/Perceiver IO
+- SinkFormers

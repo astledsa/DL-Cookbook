@@ -26,6 +26,9 @@ title = 'The CookBook'
 [params]
   math = true
 
+[minify]
+  disableHTML = true
+
 [menu]
   [[menu.main]]
     name = "Home"
@@ -34,6 +37,27 @@ title = 'The CookBook'
   [[menu.main]]
    name = "Neural Network Architectures"
    url = "/nna/"
+   weight = 1
+  [[menu.main]]
+   name = "Rienforcement Learning"
+   url = "/rl/"
+   weight = 1
+  [[menu.main]]
+   name = "Policy Gradient Methods"
+   parent = "Rienforcement Learning"
+   url = "/rl/pgm/"
+  [[menu.main]]
+   name = "Value Based Methods"
+   parent = "Rienforcement Learning"
+   url = "/rl/vbm/"
+  [[menu.main]]
+   name = "Deep Q networks"
+   parent = "Value Based Methods"
+   url = "/rl/vbm/dqn/"
+  [[menu.main]]
+   name = "PPO"
+   parent = "Policy Gradient Methods"
+   url = "/rl/pgm/ppo/"
    weight = 1
   [[menu.main]]
    name = "Basic Architectures"
@@ -111,6 +135,16 @@ title = 'The CookBook'
    url = "/nna/autoencoders/vqvae"
    weight = 2
   [[menu.main]]
+   name = "Contractive "
+   parent = "Auto-Encoders"
+   url = "/nna/autoencoders/contractive"
+   weight = 2
+  [[menu.main]]
+   name = "Sparse "
+   parent = "Auto-Encoders"
+   url = "/nna/autoencoders/sparse"
+   weight = 2
+  [[menu.main]]
    name = "Transformers"
    parent = "Neural Network Architectures"
    url = "/nna/transformers/"
@@ -118,6 +152,16 @@ title = 'The CookBook'
   [[menu.main]]
    name = "Vanilla Transformer"
    url = "/nna/transformers/vanilla"
+   parent = "Transformers"
+   weight = 2
+  [[menu.main]]
+   name = "Transformers^2"
+   url = "/nna/transformers/transformers2"
+   parent = "Transformers"
+   weight = 2
+  [[menu.main]]
+   name = "Negative"
+   url = "/nna/transformers/negative"
    parent = "Transformers"
    weight = 2
   [[menu.main]]
