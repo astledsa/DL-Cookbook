@@ -1,6 +1,6 @@
 # DL CookBook Progress
 
-[▓▓▓░░░░░░░░░░░░░░] 10.16% (18/177)
+[▓▓▓░░░░░░░░░░░░░░] 10.16% (19/177)
 
 ## Neural Network Architectures
 
@@ -36,7 +36,7 @@
 </details>
 
 <details>
-  <summary>Transformers (6/12)</summary>
+  <summary>Transformers (7/12)</summary>
 
   - [x] Vanilla
   - [x] Linear
@@ -44,7 +44,7 @@
   - [x] Gaussian
   - [x] Differential
   - [x] Universal
-  - [ ] Negative-Weights
+  - [x] Negative-Weights
   - [ ] FlashAttention (v1/v2/v3)
   - [ ] Byte Latent Transformers
   - [ ] Transformers^2

@@ -145,6 +145,21 @@ title = 'The CookBook'
    url = "/nna/autoencoders/sparse"
    weight = 2
   [[menu.main]]
+   name = "Diffusion Models"
+   parent = "Neural Network Architectures"
+   url = "/nna/diffusion/"
+   weight = 2
+  [[menu.main]]
+   name = "DDPM"
+   url = "/nna/diffusion/ddpm"
+   parent = "Diffusion Models"
+   weight = 2
+  [[menu.main]]
+   name = "DDIM"
+   url = "/nna/diffusion/ddim"
+   parent = "Diffusion Models"
+   weight = 2
+  [[menu.main]]
    name = "Transformers"
    parent = "Neural Network Architectures"
    url = "/nna/transformers/"
@@ -162,6 +177,21 @@ title = 'The CookBook'
   [[menu.main]]
    name = "Negative"
    url = "/nna/transformers/negative"
+   parent = "Transformers"
+   weight = 2
+  [[menu.main]]
+   name = "Titan"
+   url = "/nna/transformers/titan"
+   parent = "Transformers"
+   weight = 2
+  [[menu.main]]
+   name = "Byte Latent"
+   url = "/nna/transformers/blt"
+   parent = "Transformers"
+   weight = 2
+  [[menu.main]]
+   name = "Atlas"
+   url = "/nna/transformers/atlas"
    parent = "Transformers"
    weight = 2
   [[menu.main]]
