@@ -46,7 +46,6 @@
   - [x] Universal
   - [x] Negative-Weights
   - [ ] FlashAttention (v1/v2/v3)
-  - [ ] Byte Latent Transformers
   - [ ] Transformers^2
   - [ ] Titans
   - [ ] Atlas
@@ -326,6 +325,21 @@
   - [ ] LBFGS (Limited-memory BFGS)
   - [ ] AdaMax
   - [ ] AMSGrad
+
+</details>
+
+## Tokenization
+
+<details>
+  <summary>Tokenizing Techniques</summary>
+
+  - [ ] Byte Pair Encoding
+  - [ ] Character-level tokenization
+  - [ ] Character-aware tokenization via CNNs
+  - [ ] Raw byte-level end-to-end learned tokenization
+  - [ ] Byte Latent Transformers
+  - [ ] MrT5 Token Deletion gates
+  - [ ] EvaByte
 
 </details>
 

@@ -3,8 +3,8 @@ title: "Negative Weights Transformers"
 date: 2024-12-10
 draft: false
 references:
-  - title: "Transformers^2: Self-Adaptive LLMs"
-    url: "https://arxiv.org/abs/2411.07176"  
+  - title: "More Expressive Attention with Negative Weights"
+    url: "https://arxiv.org/html/2411.07176v1#:~:text=Negative%20weights%20reduce%20effective%20information,diffusion%20models%20for%20image%20generation."  
 ---
 
 Expressivity in a model means the total _range_ of features it can represent, that are present in a dataset. This is indeed a very important property that any machine learning model must possess in order to accurately approximent the input's distribution. This particular variant of transformer set out to enhance the _expressivity_ of the self-attention mechanism by allowing for _negative_ values.
