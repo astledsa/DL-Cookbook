@@ -36,7 +36,7 @@
 </details>
 
 <details>
-  <summary>Transformers (7/12)</summary>
+  <summary>Transformers (7/11)</summary>
 
   - [x] Vanilla
   - [x] Linear
