@@ -1,6 +1,6 @@
 # DL CookBook Progress
 
-[▓▓▓░░░░░░░░░░░░░░] 10.16% (19/177)
+[▓▓▓░░░░░░░░░░░░░░] 10.32% (19/184)
 
 ## Neural Network Architectures
 
@@ -331,7 +331,7 @@
 ## Tokenization
 
 <details>
-  <summary>Tokenizing Techniques</summary>
+  <summary>Tokenizing Techniques (0/7)</summary>
 
   - [ ] Byte Pair Encoding
   - [ ] Character-level tokenization
